@@ -18,10 +18,10 @@ import cucumber.api.junit.Cucumber;
                 )
 
 public class testRunner {
-	/*
-	 * @AfterClass public static void writeExtentReport() {
-	 * Reporter.loadXMLConfig(new File("config/report.xml"));
-	 * 
-	 * }
-	 */
+	
+	  @AfterClass public static void writeExtentReport() {
+	  Reporter.loadXMLConfig(new File("config/report.xml"));
+	  
+	  }
+	 
 }
